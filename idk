@@ -1,0 +1,11 @@
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+
+
+Notification:Notify(
+    {Title = "Notification", Description = "Script successfully Loaded!"},
+    {OutlineColor = Color3.fromRGB(255,255,255),Time = 10, Type = "image"},
+    {Image = "http://www.roblox.com/asset/?id=13429676701", ImageColor = Color3.fromRGB(255, 255, 255)}
+)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing/main/BlackKingMb"))()
